@@ -1,0 +1,26 @@
+.TriangleUp1 {
+  background: #00aa9d;
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 150px solid red;
+  position: absolute;
+  transition: transform 0.8s;
+  
+}
+
+.TriangleUp2 {
+  background: #2b3f53;
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 150px solid red;
+  transition: transform 0.8s;
+  position: absolute;
+ 
+}
+.TriangleUp2:hover {
+  transform: translate(20px, 20px);
+}
