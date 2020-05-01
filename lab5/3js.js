@@ -11,12 +11,12 @@ function my_funck(obj){
 	}
 	if(typeof STRING==="string" || typeof(STRING+"")==="string")
 	{
-		zdvig=alfavit.slice(shiftAmount);
+		zdvig=alfavit.slice(sumZdvig);
 		zdvig=zdvig+alfavit.slice(0,sumZdvig);
 		zdvig=zdvig+musor;
 		alfavit=alfavit + musor;
 		for(i=0; i<STRING.length; i++){
-			var NUMBER=alphabet.indexOf(STRING[i]);
+			var NUMBER=alfavit.indexOf(STRING[i]);
 
 			ekran= ekran + zdvig[NUMBER];
 		}
