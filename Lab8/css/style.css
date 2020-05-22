@@ -1,0 +1,17 @@
+table, td, th {
+
+    border:  1px solid blue;
+    text-align: center;
+    color: rgb(2, 1, 1);
+    margin: auto;
+    
+}
+
+
+#info {
+    text-align: center;
+}
+input {
+    margin-left: 40%;
+    border: 1px solid red;
+}
