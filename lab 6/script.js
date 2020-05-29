@@ -13,16 +13,11 @@ const button = document.createElement("span");
 const bigImgDiv = document.querySelector('.container_big_image');
 const backgr = document.getElementById('backgr');
 
-var list = [
-  "resources/min/im1.jpg",
-  "resources/min/im2.jpg",
-  "resources/min/im3.jpg",
-  "resources/min/im4.jpg",
-  "resources/min/im5.jpg",
-  "resources/min/im6.jpg",
-  "resources/min/im7.jpg",
-  "resources/min/im8.jpg",
-];
+
+var list = [];
+
+list = document.querySelector('gallery').getAttribute('Images').split(';');
+
 
 function show_gallery() {
   for (let i = 0; i < list.length; i++) {
